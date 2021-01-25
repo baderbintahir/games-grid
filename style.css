@@ -1,0 +1,140 @@
+.head {
+    text-align: center;
+    margin: 1%;
+}
+
+.grid-body {
+    margin: 1%;
+}
+
+.card {
+    align-items: center;
+    border: none;
+    text-align: -webkit-center;
+}
+
+.card:focus{
+    outline: none;
+}
+
+.navbar-nav{
+    width: 40%;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+.card img {
+    width: 85%;
+    padding: 2%;
+    transition: all .15s ease-in-out;
+}
+
+.card img:hover {
+    width: 90%;
+    padding: 2%;
+}
+
+footer {
+    padding: 2%;
+    background: rgb(16 15 43);
+    color: white;
+    text-align: center;
+}
+
+.input-box {
+    padding: 1%;
+}
+
+#newsletter-input {
+    width: 300px;
+    margin: 0 1%;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.newsletter-submit {
+    width: 150px;
+    margin: 0 1%;
+    font-size: 1em;
+    padding: 7px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav-item {
+    margin: 0 2%;
+    font-size: 1em;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.carousel{
+    text-align: center;
+}
